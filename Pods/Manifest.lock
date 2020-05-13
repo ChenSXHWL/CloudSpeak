@@ -1,0 +1,209 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - AMap3DMap (5.1.0):
+    - AMapFoundation (~> 1.3)
+  - AMapFoundation (1.4.0)
+  - AMapSearch (5.1.0):
+    - AMapFoundation (~> 1.2)
+  - Bugly (2.4.8)
+  - DGActivityIndicatorView (2.1.1)
+  - EasyIOS (2.3):
+    - EasyIOS/Easy (= 2.3)
+  - EasyIOS-Extention (1.2):
+    - EasyIOS-Extention/EasyExtention (= 1.2)
+  - EasyIOS-Extention/EasyExtention (1.2):
+    - IQKeyboardManager
+    - RegExCategories
+    - RMUniversalAlert
+    - TTTAttributedLabel
+    - UICKeyChainStore
+    - XAspect
+  - EasyIOS/Easy (2.3):
+    - AFNetworking
+    - FLKAutoLayout (= 0.1.1)
+    - FontIcon
+    - GCDObjC
+    - JSONModel
+    - MBProgressHUD
+    - ReactiveCocoa (= 2.4.4)
+    - SDWebImage
+    - SharkORM
+    - TMCache
+  - FLKAutoLayout (0.1.1)
+  - FontIcon (1.0)
+  - GCDObjC (0.3.0)
+  - GCDWebServer (3.3.3):
+    - GCDWebServer/Core (= 3.3.3)
+  - GCDWebServer/Core (3.3.3)
+  - HappyDNS (0.3.10)
+  - IQKeyboardManager (4.0.10)
+  - JCore (1.1.3)
+  - JPush (3.0.5):
+    - JCore (~> 1.1.1)
+  - JSONModel (1.7.0)
+  - LBXScan/LBXNative (2.0)
+  - LBXScan/LBXZBar (2.0):
+    - ZBarSDK (~> 1.3.1)
+  - LBXScan/LBXZXing (2.0)
+  - LBXScan/UI (2.0)
+  - Masonry (1.0.2)
+  - MBProgressHUD (1.0.0)
+  - MJRefresh (3.1.12)
+  - Qiniu (7.1.5):
+    - AFNetworking (~> 3)
+    - HappyDNS (~> 0.3)
+  - ReactiveCocoa (2.4.4):
+    - ReactiveCocoa/UI (= 2.4.4)
+  - ReactiveCocoa/Core (2.4.4):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.4.4)
+  - ReactiveCocoa/UI (2.4.4):
+    - ReactiveCocoa/Core
+  - RegExCategories (1.0)
+  - RMUniversalAlert (0.8.1):
+    - RMUniversalAlert/Core (= 0.8.1)
+  - RMUniversalAlert/Core (0.8.1):
+    - UIActionSheet+Blocks (>= 0.9)
+    - UIAlertController+Blocks (>= 0.9)
+    - UIAlertView+Blocks (>= 0.9)
+  - SDCycleScrollView (1.66):
+    - SDWebImage (~> 4.0.0)
+  - SDWebImage (4.0.0):
+    - SDWebImage/Core (= 4.0.0)
+  - SDWebImage/Core (4.0.0)
+  - ServerLog (0.1.0):
+    - ServerLog/All (= 0.1.0)
+  - ServerLog/All (0.1.0):
+    - ServerLog/Base
+  - ServerLog/Base (0.1.0):
+    - GCDWebServer (~> 3.0)
+  - SharkORM (2.1.3)
+  - SZTextView (1.3.0)
+  - TMCache (2.1.0)
+  - TTTAttributedLabel (2.0.0)
+  - UIActionSheet+Blocks (0.9)
+  - UIAlertController+Blocks (0.9.2)
+  - UIAlertView+Blocks (0.9)
+  - UICKeyChainStore (2.1.1)
+  - UMengUShare/Core (6.4.4):
+    - UMengUShare/Network
+  - UMengUShare/Network (6.4.4)
+  - UMengUShare/Social/QQ (6.4.4):
+    - UMengUShare/Core
+    - UMengUShare/Social/ReducedQQ
+  - UMengUShare/Social/ReducedQQ (6.4.4):
+    - UMengUShare/Core
+  - UMengUShare/Social/ReducedWeChat (6.4.4):
+    - UMengUShare/Core
+  - UMengUShare/Social/SMS (6.4.4):
+    - UMengUShare/Core
+  - UMengUShare/Social/WeChat (6.4.4):
+    - UMengUShare/Core
+    - UMengUShare/Social/ReducedWeChat
+  - XAspect (1.0.5):
+    - XAspect/Core (= 1.0.5)
+    - XAspect/Macros (= 1.0.5)
+  - XAspect/Core (1.0.5):
+    - XAspect/Macros
+  - XAspect/Macros (1.0.5)
+  - ZBarSDK (1.3.1)
+
+DEPENDENCIES:
+  - AMap3DMap
+  - AMapSearch
+  - Bugly
+  - DGActivityIndicatorView
+  - EasyIOS (from `https://github.com/zhuchaowe/EasyIOS.git`, tag `2.3`)
+  - EasyIOS-Extention (~> 1.2)
+  - IQKeyboardManager
+  - JPush
+  - LBXScan/LBXNative (~> 2.0)
+  - LBXScan/LBXZBar (~> 2.0)
+  - LBXScan/LBXZXing (~> 2.0)
+  - LBXScan/UI (~> 2.0)
+  - Masonry
+  - MJRefresh
+  - Qiniu (~> 7.1)
+  - SDCycleScrollView (~> 1.65)
+  - ServerLog (from `https://github.com/Darkhorse-Fraternity/TestLog.git`)
+  - SZTextView
+  - UMengUShare/Social/QQ
+  - UMengUShare/Social/ReducedQQ
+  - UMengUShare/Social/ReducedWeChat
+  - UMengUShare/Social/SMS
+  - UMengUShare/Social/WeChat
+  - XAspect
+
+EXTERNAL SOURCES:
+  EasyIOS:
+    :git: https://github.com/zhuchaowe/EasyIOS.git
+    :tag: '2.3'
+  ServerLog:
+    :git: https://github.com/Darkhorse-Fraternity/TestLog.git
+
+CHECKOUT OPTIONS:
+  EasyIOS:
+    :git: https://github.com/zhuchaowe/EasyIOS.git
+    :tag: '2.3'
+  ServerLog:
+    :commit: b0712d0ce1c9d0c37cbcd8ad5f9ad0eb79dba7a9
+    :git: https://github.com/Darkhorse-Fraternity/TestLog.git
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  AMap3DMap: ab5bf8ada89e08725d199a8e4ae84296a646392d
+  AMapFoundation: 458974f46a39df8407fd818ab83d2630d494c726
+  AMapSearch: d4c924b929f433968669721a07b4bd57736f5f2a
+  Bugly: da3c02408c14838d498429320545a8e439392978
+  DGActivityIndicatorView: ff2c76073d79692f724863c8dd38685866a03cb6
+  EasyIOS: 9fdcb7b036b685a729d56d8f8232061dd62f8696
+  EasyIOS-Extention: c7e402e8b2497760955510228771512c37110aa2
+  FLKAutoLayout: 95b12c5cd9652100235140b68652f063f7437851
+  FontIcon: 24a07541244227b865e689217efd7d049ba7cc43
+  GCDObjC: 0c31898f34d8605196ac0343c65b496609d7dee6
+  GCDWebServer: 1c39a1f0763e4eb492bee021e4270fce097d3555
+  HappyDNS: 06a9fed2796663fd87626dbf02552933265bf059
+  IQKeyboardManager: 593ee99b88381f4b9ccb22bd680f22606351bd41
+  JCore: dff3c50e9a7522a508cd9096ca79165968e1aed3
+  JPush: dd0b776998aa705a6242b947bf72e5a640387cfe
+  JSONModel: 840bc0fcffb24b8454d2c026bf26fea454b8e98d
+  LBXScan: 458f4b7a6688504a1415dc4a0f9822100e099f66
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
+  Qiniu: 77a3dba411556a383d72d17e842345a9d4c83252
+  ReactiveCocoa: cbe3b5eae464aa72a348a7323996b171728a9e71
+  RegExCategories: e68befacacd5bda853c88f70ec745cb2d0cfb89c
+  RMUniversalAlert: ce7118101a19fa41b9adedf907b66a8cc3bd32c8
+  SDCycleScrollView: e3ade90e9b3159bec04330b208fbfd81c3f3b671
+  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
+  ServerLog: 285d2daab85923844453a58a8c502617027c02b6
+  SharkORM: 0dd55f13d82ab4c68f7c54012211c6a34a9f0001
+  SZTextView: 094dc6acc9beec537685c545d6e3e0d4975174e1
+  TMCache: 95ebcc9b3c7e90fb5fd8fc3036cba3aa781c9bed
+  TTTAttributedLabel: 8cffe8e127e4e82ff3af1e5386d4cd0ad000b656
+  UIActionSheet+Blocks: e180b7dad0a721ab7f212ac9742af799008bb358
+  UIAlertController+Blocks: 80e28b92523fb58aba4d1bccec013d5a0b0bddb2
+  UIAlertView+Blocks: a46c99c5144f6c5dbc7d62fd2a0678daceec89a3
+  UICKeyChainStore: 239558492fa260531a0774cfc611ea83a6eaff3a
+  UMengUShare: cd54ae52958426b79aa9193a7b02058d6a6d9aa0
+  XAspect: db50bf487f92dbb8557a7a5365556966c8493af8
+  ZBarSDK: 4c1b5daeb7d6cc67dc9355e690af0230a661f6ec
+
+PODFILE CHECKSUM: fe5ec0fabbfa9deec8637e46695df7362d72f30b
+
+COCOAPODS: 1.0.1

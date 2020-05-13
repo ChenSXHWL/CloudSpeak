@@ -1,0 +1,46 @@
+{
+  "name": "ServerLog",
+  "version": "0.1.0",
+  "summary": "The Frist Public Classes of ServerLog iOS",
+  "description": "The Frist Public Classes of ServerLog iOS`.",
+  "homepage": "http://www.ServerLog.im",
+  "license": "MIT",
+  "authors": {
+    "TonyYo": "lintong320@gmail.com"
+  },
+  "source": {
+    "git": "git@github.com:Darkhorse-Fraternity/TestLog.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.1"
+  },
+  "requires_arc": true,
+  "module_name": "ServerLog",
+  "frameworks": [
+    "UIKit",
+    "Foundation"
+  ],
+  "default_subspecs": "All",
+  "subspecs": [
+    {
+      "name": "Base",
+      "source_files": "ServerLog/**/*.{h,m,mm}",
+      "public_header_files": "ServerLog/**/*.h",
+      "libraries": "c++",
+      "dependencies": {
+        "GCDWebServer": [
+          "~> 3.0"
+        ]
+      }
+    },
+    {
+      "name": "All",
+      "dependencies": {
+        "ServerLog/Base": [
+
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "40c80d5e-9a3b-aa4c-94ae-d76064e412f8++1799",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "40c80d5e-9a3b-aa4c-94ae-d76064e412f8++1799" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "40c80d5e-9a3b-aa4c-94ae-d76064e412f8++1799" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "3453333D-4912-460A-9FF1-06AE0FAABA25",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "40c80d5e-9a3b-aa4c-94ae-d76064e412f8++1799" : "CloudSpeak\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "CloudSpeak",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "CloudSpeak.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "code.csdn.net:LSY076\/cloudspeak.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "40c80d5e-9a3b-aa4c-94ae-d76064e412f8++1799"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/192.168.14.158\/svn\/MyRepository",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "40c80d5e-9a3b-aa4c-94ae-d76064e412f8++1799"
+    }
+  ]
+}

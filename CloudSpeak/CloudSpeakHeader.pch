@@ -1,0 +1,80 @@
+//
+//  CloudSpeakHeader.pch
+//  CloudSpeak
+//
+//  Created by DNAKE_AY on 17/3/8.
+//  Copyright © 2017年 DNAKE_AY. All rights reserved.
+//
+
+#ifdef __OBJC__
+
+#ifndef CloudSpeakHeader_pch
+#define CloudSpeakHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* CloudSpeakHeader_pch */
+
+#import "Easy.h"
+#import "EasyIOS.h"
+#import "Api.h"
+#import "AYColorMacros.h"
+#import <AVFoundation/AVFoundation.h>
+#import "Masonry.h"
+#import "LoginManage.h"
+#import "LoginEntity.h"
+#import "NSString+LK.h"
+#import "MJRefresh.h"
+#import "BXExtensions.h"
+#import "MSSBrowseDefine.h"
+#import "AYCustomTView.h"
+#import "AYProgressHud.h"
+#import "UIImageView+ImageLoadingActivityIndicator.h"
+#import "SceneModelConfig.h"
+
+#import <SystemConfiguration/CaptiveNetwork.h>
+#import "ms2common.h"
+#import "log.h"
+#import "AYCloudSpeakApi.h"
+#import "AYGetIpAddress.h"
+#import "AYTimerCount.h"
+#import "CommunityListArrayEntity.h"
+#import "RefreshDevicesRequest.h"
+#import "MTA.h"
+#import "MTAConfig.h"
+//适配x
+#define iPhoneX ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(1125, 2436), [[UIScreen mainScreen] currentMode].size) : NO)
+#define kStatusBarHeight [[UIApplication sharedApplication] statusBarFrame].size.height
+#define kNavBarHeight 44.0
+#define kTabBarHeight ([[UIApplication sharedApplication] statusBarFrame].size.height>20?83:49)
+#define kTopHeight (kStatusBarHeight + kNavBarHeight)
+/**
+ *  弱引用
+ */
+#define BXWeakSelf __weak typeof(self) weakSelf = self;
+
+#define BXNoteCenter [NSNotificationCenter defaultCenter]
+
+#define BXScreenH [UIScreen mainScreen].bounds.size.height
+#define BXScreenW [UIScreen mainScreen].bounds.size.width
+#define BXScreenBounds [UIScreen mainScreen].bounds
+#define BXKeyWindow [UIApplication sharedApplication].keyWindow
+#define SYSTEM_VERSION_EQUAL_TO(v) ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] == NSOrderedSame)
+
+// 随机色
+#define BXRandomColor BXColor(arc4random_uniform(256), arc4random_uniform(256), arc4random_uniform(256))
+
+// 设置颜色
+#define BXColor(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+
+#define BXAlphaColor(r, g, b, a) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:a]
+//保单显示文字颜色
+#define The_Prompt_Color_Nine [[UIColor alloc]initWithRed:153/255.0 green:153/255.0 blue:153/255.0 alpha:1]
+#define The_Prompt_Color_Six [[UIColor alloc]initWithRed:102/255.0 green:102/255.0 blue:102/255.0 alpha:1]
+#define The_Prompt_Color_Three [[UIColor alloc]initWithRed:51/255.0 green:51/255.0 blue:51/255.0 alpha:1]
+
+#define The_MainColor BXColor(51, 153, 255)
+#define BXGlobalBg BXColor(242, 242, 242)
+
+#endif
